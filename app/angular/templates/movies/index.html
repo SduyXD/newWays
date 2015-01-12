@@ -1,0 +1,25 @@
+<table>
+  <thead>
+    <tr>
+      <th> Title</th>
+      <th> Director</th>
+      <th> Rating</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr ng-repeat="movie in movies">
+      <td>{{ movie.name }}</td>
+      <td>{{ movie.director }}</td>
+      <td>{{ movie.rating }}</td>
+      <td><a ng-click="delete(movie.id)">Delete</a>
+      </td>
+      <td><a ng-click="show(movie.id)">Show</a>
+      </td>
+      <td><a ng-click="edit(movie.id)">Edit</a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<a ng-click="new()">New</a>

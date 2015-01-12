@@ -1,0 +1,14 @@
+<div>
+  <div>
+    <strong> {{ movie.name }} </strong>
+  </div>
+  <div>
+    {{ movie.director }}
+  </div>
+  <div>
+    {{ movie.rating }}
+  </div>
+</div>
+
+<a ng-click="edit(movie.id)">Edit</a>
+<a ui-sref="movies.index">Back</a>

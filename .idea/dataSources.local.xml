@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Rails newWays: development" uuid="219180b2-28a4-4057-b9fb-b07ffc98991d">
+      <schema-pattern>newWays_development.*</schema-pattern>
+      <default-schemas>newWays_development.*</default-schemas>
+    </data-source>
+    <data-source name="Rails newWays: test" uuid="72654a13-88cf-45bd-b51c-306fa659cc06">
+      <schema-pattern>newWays_test.*</schema-pattern>
+      <default-schemas>newWays_test.*</default-schemas>
+    </data-source>
+    <data-source name="Rails newWays: production" uuid="8429276c-ea23-41b4-b5f5-aa228dd1ef75">
+      <first-sync>true</first-sync>
+      <user-name>newWays</user-name>
+      <user-password>df96df8fdf97df8adfefdfe4dffcdff1df8ddfe4dfefdffddffddfebdff3dff9dff5dfeedfebdffedfebdfe8dfebdff9dfefdff5dffadfebdff9dff9dffddfe5dff8dfeedf8ddff7df8adf8fdf94</user-password>
+    </data-source>
+  </component>
+</project>
