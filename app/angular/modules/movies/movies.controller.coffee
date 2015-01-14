@@ -5,7 +5,7 @@
 angular.module "module.movies"
 .controller "MovieController", ($scope, $state, $stateParams, Movie) ->
 
-  $scope.view = {header: "Movies Index"}
+  $scope.view = {header: "Movies"}
 
   $scope.index = ->
     $scope.movies = Movie.$search()
@@ -18,7 +18,6 @@ angular.module "module.movies"
     movie = Movie.$build($scope.movie)
     movie.$save().$then ->
       $scope.index()
-      $state.go "movies.index"
 
   $scope.show = (movie) ->
     $scope.movie = Movie.$find(movie)
@@ -33,6 +32,7 @@ angular.module "module.movies"
   $scope.update = (movie) ->
     movie = $scope.movie
     movie.$save()
+    $scope.index()
     $state.go "movies.index"
 
   $scope.delete = (movie) ->

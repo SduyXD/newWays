@@ -3,6 +3,7 @@
 # You can use CoffeeScript in this file: http://coffeescript.org/
 
 #= require_tree ./base/
+#= require_tree ./root/filters
 #= require_tree ./root/directives
 #= require_tree ./modules/
 #= require_tree ./configuration/

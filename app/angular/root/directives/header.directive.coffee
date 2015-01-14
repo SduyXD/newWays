@@ -1,4 +1,4 @@
-angular.module "newWays.root", []
+angular.module "newWays.root"
 .directive "pageHeader", ->
-  restrict: "AE"
+  restrict: "EA"
   templateUrl: "directives/header.html"
